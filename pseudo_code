@@ -1,0 +1,20 @@
+ETAPES :	
+
+- Lancer la partie via le « Play Game » :
+	Sélectionne un mot à trouver au hasard
+	Affiche le bon nombre de underscores liés au mot sélectionné 
+
+-Configurer le clavier de jeu :
+	Associer chaque bouton à la lettre correspondante
+
+- Prendre en compte les essais du joueur : (condition)
+	Le joueur clique sur un bouton associé à une lettre
+		Bonne réponse = affichage de la lettre à la place du underscore
+		Mauvaise réponse = blocage du bouton associé à la lettre 
+					affichage d’une partie du pendu
+
+-Définir les conditions de jeu via le nombre d’essais du joueur (ex 9): (condition)
+	Si le clavier est cliqué 9x  = partie finie et perdue
+	Si le clavier est cliqué - 9x = demander à rejouer
+	Si le clavier est cliqué - 9x et que le m-à-t est rempli = partie finie et gagnée 
+

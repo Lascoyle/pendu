@@ -1,0 +1,110 @@
+/*Main Containers Design*/
+
+html
+{
+    background: rgb(24, 24, 24);
+    padding: 1.5%;
+    padding-right: 10%; 
+    padding-left: 3.5%;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    font-variant: small-caps;
+}
+
+body
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#cnv
+{
+    background:  rgb(199, 224, 210);
+    border-radius: 12px;
+    margin-right: 10vh;
+}
+
+.interactive
+{
+    background-color:rgb(51, 51, 51);
+    border-radius: 12px;
+    padding: 2%;
+}
+
+/*Game Title Design*/
+h1
+{
+    background-color: rgb(253, 193, 136);
+    background-color: crimson;
+    font-size: 3.8em; 
+    color: white;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center; 
+}
+
+/*Play Game Design*/
+#play
+{
+    text-align: center;
+    color: lightgray;
+    font-size: 2.2em;
+}
+
+/*Word To Find Design*/ 
+#wordtofind
+{
+    background-color: rgb(29, 29, 29);
+    font-size: 2.5em; 
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 3vh; 
+    border-radius: 5px; 
+    color: white;
+    text-align: center;
+}
+
+/*Game Message Design*/
+#gamemessage
+{
+    font-size: 1.5em; 
+    text-align: center;
+}
+
+
+/*Wrong Letters Design*/
+#wrongletters
+{
+    font-size: 1.4em; 
+    text-align: center;
+    color: crimson;
+    margin-bottom: 1vh;
+}
+
+/*Keyboard Design*/
+button
+{
+    font-family: 'Amatic SC', cursive;
+    font-variant: small-caps;
+    width: 1.5vh; 
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
+}
+
+.keyboard
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.line
+{
+    margin: auto;
+    margin-top: 0.6%; 
+}
