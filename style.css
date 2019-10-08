@@ -30,12 +30,13 @@ body
     background-color:rgb(51, 51, 51);
     border-radius: 12px;
     padding: 2%;
+    min-width: 38vw;
 }
 
 /*Game Title Design*/
 h1
 {
-    background-color: rgb(253, 193, 136);
+    background-color: rgb(253, 136, 136);
     background-color: crimson;
     font-size: 3.8em; 
     color: white;
@@ -50,9 +51,15 @@ h1
 /*Play Game Design*/
 #play
 {
-    text-align: center;
     color: lightgray;
+    text-decoration: none;
+    
     font-size: 2.2em;
+}
+
+#n-g
+{
+    text-align: center;
 }
 
 /*Word To Find Design*/ 
@@ -72,7 +79,12 @@ h1
 /*Game Message Design*/
 #gamemessage
 {
-    font-size: 1.5em; 
+    font-size: 1.5em;
+    background-color: white;
+    width: 18vw;
+    margin: auto;
+    padding: 1.5%; 
+    border-radius: 5px;  
     text-align: center;
 }
 
@@ -80,7 +92,7 @@ h1
 /*Wrong Letters Design*/
 #wrongletters
 {
-    font-size: 1.4em; 
+    font-size: 1.6em; 
     text-align: center;
     color: crimson;
     margin-bottom: 1vh;
@@ -91,13 +103,19 @@ button
 {
     font-family: 'Amatic SC', cursive;
     font-variant: small-caps;
-    width: 1.5vh; 
+    width: 1.5vh;
+    height: 9vh; 
     font-size: 2.5em;
     font-weight: bold;
     color: black;
 }
 
-.keyboard
+button:hover
+{
+    cursor: pointer;
+}
+
+#keyboard
 {
     display: flex;
     flex-direction: column;

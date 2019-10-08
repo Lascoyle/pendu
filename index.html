@@ -11,44 +11,44 @@
 <body>
     <canvas id="cnv" width="510" height="570"></canvas>
     <div class="interactive">
-        <h1>Hanged Man Game</h1>
-        <p id="play">Play Game</p>
-        <div id="gamemessage"> "Try Again", "You Lose", "You Win"</div>
-        <div id="wordtofind">   </div>
-        <div id="wrongletters"> a b c d e f g h i j</div>
-        <div class="keyboard">
+        <h1>Hang Man Game</h1>
+        <a href="javascript:window.location.reload()" id="play"><p id="n-g">New Game</p></a> 
+        <div id="gamemessage"> "Try to find the right word!"</div>
+        <div id="wordtofind"></div>
+        <div id="wrongletters"> </div>
+        <div id="keyboard">
             <div class="line">
-                <button class="letter" id="value_a">a</button>
-                <button class="letter" id="value_z">z</button>
-                <button class="letter" id="value_e">e</button>
-                <button class="letter" id="value_r">r</button>
-                <button class="letter" id="value_t">t</button>
-                <button class="letter" id="value_y">y</button>
-                <button class="letter" id="value_u">u</button>
-                <button class="letter" id="value_i">i</button>
-                <button class="letter" id="value_o">o</button>
-                <button class="letter" id="value_p">p</button>
+                <button class="letter" onclick="getLetter(this)">a</button>
+                <button class="letter" onclick="getLetter(this)">z</button>
+                <button class="letter" onclick="getLetter(this)">e</button>
+                <button class="letter" onclick="getLetter(this)">r</button>
+                <button class="letter" onclick="getLetter(this)">t</button>
+                <button class="letter" onclick="getLetter(this)">y</button>
+                <button class="letter" onclick="getLetter(this)">u</button>
+                <button class="letter" onclick="getLetter(this)">i</button>
+                <button class="letter" onclick="getLetter(this)">o</button>
+                <button class="letter" onclick="getLetter(this)">p</button>
             </div>
             <div class="line">
-                <button class="letter" id="value_q">q</button>
-                <button class="letter" id="value_s">s</button>
-                <button class="letter" id="value_d">d</button>
-                <button class="letter" id="value_f">f</button>
-                <button class="letter" id="value_g">g</button>
-                <button class="letter" id="value_h">h</button>
-                <button class="letter" id="value_j">j</button>
-                <button class="letter" id="value_k">k</button>
-                <button class="letter" id="value_l">l</button>
-                <button class="letter" id="value_m">m</button>
+                <button class="letter" onclick="getLetter(this)">q</button>
+                <button class="letter" onclick="getLetter(this)">s</button>
+                <button class="letter" onclick="getLetter(this)">d</button>
+                <button class="letter" onclick="getLetter(this)">f</button>
+                <button class="letter" onclick="getLetter(this)">g</button>
+                <button class="letter" onclick="getLetter(this)">h</button>
+                <button class="letter" onclick="getLetter(this)">j</button>
+                <button class="letter" onclick="getLetter(this)">k</button>
+                <button class="letter" onclick="getLetter(this)">l</button>
+                <button class="letter" onclick="getLetter(this)">m</button>
             </div>
             <div class="line">
-                <button class="letter" id="value_w">w</button>
-                <button class="letter" id="value_x">x</button>
-                <button class="letter" id="value_c">c</button>
-                <button class="letter" id="value_v">v</button>
-                <button class="letter" id="value_b">b</button>
-                <button class="letter" id="value_n">n</button>
-            </div>
+                <button class="letter" onclick="getLetter(this)">w</button>
+                <button class="letter" onclick="getLetter(this)">x</button>
+                <button class="letter" onclick="getLetter(this)">c</button>
+                <button class="letter" onclick="getLetter(this)">v</button>
+                <button class="letter" onclick="getLetter(this)">b</button>
+                <button class="letter" onclick="getLetter(this)">n</button>
+            </div> 
         </div>
     </div>
 </body>
