@@ -336,6 +336,7 @@ function getLetter(item)
                 fanfareSound.play(); // BGM Play
                 yeahSound.play();
                 mainSong.pause();
+                ctx.clearRect(0, 0, 510, 570);
             }
         }
 
